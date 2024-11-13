@@ -5,7 +5,7 @@ except:
     print("Error File Already Exist!")
 
 f = open("file1.txt","a")
-f.write("\nThis is the last day of our Training in Python")
+f.write("\nThis is the last day of our Training in Python\nmodified in Github")
 f.close
 f = open("file1.txt","r")
 print(f.read())
