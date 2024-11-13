@@ -1,6 +1,6 @@
 try:
     file = open("file1.txt", "x")
-    print("File Successfully Created.")
+    print("File Successfully Created.\nfix error")
 except:
     print("Error File Already Exist!")
 
@@ -10,3 +10,4 @@ f.close
 f = open("file1.txt","r")
 print(f.read())
 f.close
+
